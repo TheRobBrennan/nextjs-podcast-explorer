@@ -1,8 +1,10 @@
+import { SFC } from "react"
+
 interface SearchResultProps {
   searchText: string
 }
 
-export default ({ searchText }: SearchResultProps) => {
+const SearchResult: SFC<SearchResultProps> = ({ searchText }) => {
   const results = searchText ? (
     <pre>{JSON.stringify(searchText, null, 2)}</pre>
   ) : (
@@ -11,3 +13,4 @@ export default ({ searchText }: SearchResultProps) => {
 
   return <>{results}</>
 }
+export default SearchResult
