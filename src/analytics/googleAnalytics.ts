@@ -1,5 +1,4 @@
-// TODO: Replace with an environment variable
-export const GOOGLE_ANALYTICS_TRACKING_ID = 'UA-156456153-2'
+export const GOOGLE_ANALYTICS_TRACKING_ID = process.env.GOOGLE_ANALYTICS_TRACKING_ID
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
 export const pageview = url => {
