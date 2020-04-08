@@ -10,7 +10,7 @@ Please copy `.env.sample` to `.env` - replacing any values as desired:
 GOOGLE_ANALYTICS_TRACKING_ID="<YOUR_GOOGLE_ANALYTICS_TRACKING_ID>"
 ```
 
-## Third party services
+## Third-party services
 
 ### Google Analytics
 
@@ -38,4 +38,4 @@ $ now secrets rm <secret-name>                  # e.g. $ now secrets rm npe-goog
 
 #### Deployment
 
-Once a PR has been merged into `master`, the project will be automatically deployed to [https://nextjs-podcast-explorer.now.sh](https://nextjs-podcast-explorer.now.sh)
+Once a PR has been merged into `master` the project will be automatically deployed to [https://nextjs-podcast-explorer.now.sh](https://nextjs-podcast-explorer.now.sh)
