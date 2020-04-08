@@ -2,6 +2,9 @@
 import { NextPage } from 'next'
 import Link from 'next/link'
 
+// Components
+import Placeholder from '../src/Placeholder'
+
 // Retrieve the currently installed version of Next.js
 import { dependencies } from '../package.json'
 const { next: version } = dependencies
@@ -29,6 +32,7 @@ const IndexPage: NextPage = () => {
         <Link href='/test'>
           <a>Test</a>
         </Link>
+        <Placeholder />
       </>
     )
   }
@@ -39,6 +43,7 @@ const IndexPage: NextPage = () => {
       <Link href='/test'>
         <a>Test</a>
       </Link>
+      <Placeholder />
     </>
   )
 }
