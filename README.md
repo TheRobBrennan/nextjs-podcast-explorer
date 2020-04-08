@@ -2,6 +2,8 @@
 
 This project has been created to explore creating a [React](https://reactjs.org) app with [Next.js v9](https://nextjs.org/docs/getting-started) to search and explore podcast data; eventually resulting in an application that will be deployed to [ZEIT Now](https://zeit.co/).
 
+A [demo](https://nextjs-podcast-explorer.now.sh) of the latest version of this project is available at [https://nextjs-podcast-explorer.now.sh](https://nextjs-podcast-explorer.now.sh)
+
 ## Environment variables
 
 Please copy `.env.sample` to `.env` - replacing any values as desired:
