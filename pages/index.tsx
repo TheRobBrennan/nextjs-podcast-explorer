@@ -3,12 +3,12 @@ import { NextPage } from "next"
 import Link from "next/link"
 
 // Components
-import Placeholder from "../src/Placeholder"
+import Search from "../src/Search"
 
 const IndexPage: NextPage = () => {
   return (
     <>
-      <Placeholder />
+      <Search />
       <Link href="/test">
         <a>Test</a>
       </Link>

@@ -1,7 +1,7 @@
 export default () => {
   return (
     <>
-      <p>[PLACEHOLDER]</p>
+      <h1>Search</h1>
     </>
   )
 }
